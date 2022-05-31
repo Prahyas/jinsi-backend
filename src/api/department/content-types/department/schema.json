@@ -26,6 +26,12 @@
       "relation": "oneToMany",
       "target": "api::detail.detail",
       "mappedBy": "department"
+    },
+    "collections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::collection.collection",
+      "mappedBy": "department"
     }
   }
 }
