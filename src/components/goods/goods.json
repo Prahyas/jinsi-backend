@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_goods_goods",
+  "info": {
+    "displayName": "goods",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "goodname": {
+      "type": "string"
+    },
+    "specification": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    }
+  }
+}

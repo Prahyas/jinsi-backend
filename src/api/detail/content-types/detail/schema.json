@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "details",
+  "info": {
+    "singularName": "detail",
+    "pluralName": "details",
+    "displayName": "Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "fiscalyear": {
+      "type": "string"
+    },
+    "customername": {
+      "type": "string"
+    },
+    "departmentid": {
+      "type": "integer"
+    },
+    "timestamp": {
+      "type": "integer"
+    },
+    "goods": {
+      "type": "component",
+      "repeatable": true,
+      "component": "goods.goods"
+    },
+    "department": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::department.department",
+      "inversedBy": "details"
+    }
+  }
+}
