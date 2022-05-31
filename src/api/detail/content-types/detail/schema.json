@@ -24,7 +24,7 @@
     "departmentid": {
       "type": "integer"
     },
-    "timestamp": {
+    "timecode": {
       "type": "integer"
     },
     "goods": {
