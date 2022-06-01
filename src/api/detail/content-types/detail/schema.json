@@ -24,9 +24,6 @@
     "departmentid": {
       "type": "integer"
     },
-    "timecode": {
-      "type": "integer"
-    },
     "goods": {
       "type": "component",
       "repeatable": true,

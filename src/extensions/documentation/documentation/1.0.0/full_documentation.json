@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-31T17:44:53.778Z"
+    "x-generation-date": "2022-06-01T02:10:39.568Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -170,9 +170,6 @@
                                     "type": "string"
                                   },
                                   "departmentid": {
-                                    "type": "integer"
-                                  },
-                                  "timecode": {
                                     "type": "integer"
                                   },
                                   "goods": {
@@ -702,9 +699,6 @@
                                 "departmentid": {
                                   "type": "integer"
                                 },
-                                "timecode": {
-                                  "type": "integer"
-                                },
                                 "goods": {
                                   "type": "array",
                                   "items": {
@@ -1187,9 +1181,6 @@
               "departmentid": {
                 "type": "integer"
               },
-              "timecode": {
-                "type": "integer"
-              },
               "goods": {
                 "type": "array",
                 "items": {
@@ -1245,9 +1236,6 @@
                       "type": "string"
                     },
                     "departmentid": {
-                      "type": "integer"
-                    },
-                    "timecode": {
                       "type": "integer"
                     },
                     "goods": {
@@ -1315,9 +1303,6 @@
                                                 "type": "string"
                                               },
                                               "departmentid": {
-                                                "type": "integer"
-                                              },
-                                              "timecode": {
                                                 "type": "integer"
                                               },
                                               "goods": {
@@ -1800,9 +1785,6 @@
                   "departmentid": {
                     "type": "integer"
                   },
-                  "timecode": {
-                    "type": "integer"
-                  },
                   "goods": {
                     "type": "array",
                     "items": {
@@ -1868,9 +1850,6 @@
                                               "type": "string"
                                             },
                                             "departmentid": {
-                                              "type": "integer"
-                                            },
-                                            "timecode": {
                                               "type": "integer"
                                             },
                                             "goods": {
