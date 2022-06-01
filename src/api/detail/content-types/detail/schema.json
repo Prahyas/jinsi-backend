@@ -36,7 +36,7 @@
       "inversedBy": "details"
     },
     "timecode": {
-      "type": "integer"
+      "type": "biginteger"
     }
   }
 }
