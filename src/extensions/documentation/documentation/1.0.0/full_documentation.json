@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-06-01T02:10:39.568Z"
+    "x-generation-date": "2022-06-01T02:20:10.673Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -531,6 +531,9 @@
                                         }
                                       }
                                     }
+                                  },
+                                  "timecode": {
+                                    "type": "integer"
                                   },
                                   "createdAt": {
                                     "type": "string",
@@ -1059,6 +1062,9 @@
                                     }
                                   }
                                 },
+                                "timecode": {
+                                  "type": "integer"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -1208,6 +1214,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "timecode": {
+                "type": "integer"
               }
             }
           }
@@ -1341,6 +1350,9 @@
                                                     }
                                                   }
                                                 }
+                                              },
+                                              "timecode": {
+                                                "type": "integer"
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -1690,6 +1702,9 @@
                         }
                       }
                     },
+                    "timecode": {
+                      "type": "integer"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -1888,6 +1903,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "timecode": {
+                                              "type": "integer"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -2236,6 +2254,9 @@
                         }
                       }
                     }
+                  },
+                  "timecode": {
+                    "type": "integer"
                   },
                   "createdAt": {
                     "type": "string",
